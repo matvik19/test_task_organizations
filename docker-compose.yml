@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8000:8000"
+      - "8123:8123"
     environment:
       - DB_HOST=${DB_HOST}
       - DB_PORT=${DB_PORT}
